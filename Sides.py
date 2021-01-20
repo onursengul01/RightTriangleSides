@@ -1,10 +1,8 @@
 
 import os
 import math
-trY:
-	from decimal import Decimal
-except:
-	os.system("pip3 install decimal")
+from decimal import Decimal
+
 	
 def Home():
 	while True:
