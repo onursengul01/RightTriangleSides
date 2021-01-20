@@ -1,7 +1,11 @@
+
 import os
 import math
-from decimal import Decimal
-
+trY:
+	from decimal import Decimal
+except:
+	os.system("pip3 install decimal")
+	
 def Home():
 	while True:
 		print("""
